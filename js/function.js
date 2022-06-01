@@ -4,14 +4,15 @@ function generateCard (lista){
     myRow.classList.add("my-row")
     containerCard.append(myRow)
     for(let i=0; i < lista.length; i++){
-        const membro = ourTeam[i]
-        const nomeMembro = ourTeam[i].completeName.name
-        const cognomeMembro = ourTeam[i].completeName.surname
+        const membro = lista[i]
+        const nomeMembro = lista[i].completeName.name
+        const cognomeMembro = lista[i].completeName.surname
         const nomeCompleto = nomeMembro + " " + cognomeMembro
         const photoMembro = membro.photo
 
         
-        console.log("nome = " + nomeCompleto + "lavoro = " + membro.Ruolo);
+        console.log("nome = " + nomeCompleto );
+        console.log(" lavoro = " + membro.Ruolo);
         // creo il div delle mia carta e aggiungo la classe del CSS my-card
         const card = document.createElement("div")
         card.classList.add("my-card")
