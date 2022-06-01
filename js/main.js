@@ -9,7 +9,7 @@ const ourTeam = [
             surname: "Pao",
         },
         Ruolo:"Founder & CEO",
-        photo: "url"
+        photo: "img/angela-caroll-chief-editor.jpg"
     },
     {
         completeName :{
@@ -17,6 +17,7 @@ const ourTeam = [
             surname: "Bao",
         },
         Ruolo:"Chief Editor",
+        photo: "img/angela-caroll-chief-editor.jpg"
     },
     {
         completeName :{
@@ -24,6 +25,7 @@ const ourTeam = [
             surname: "Rao",
         },
         Ruolo:"Office Manager",
+        photo: "img/angela-caroll-chief-editor.jpg"
     },
     
 ]

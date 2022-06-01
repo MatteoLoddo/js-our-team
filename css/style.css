@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.my-row{
+    gap: 1rem;
+    display: flex;
+}
+
+.my-card{
+    flex-basis: calc(100% / 3 - 0.5rem);
+    aspect-ratio: 1/1;
+    background-color: aqua;
+
+}
+
+.my-card .img-card{
+    height: 80%;
+    
+}
