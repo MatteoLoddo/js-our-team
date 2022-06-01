@@ -17,34 +17,41 @@ const ourTeam = [
             surname: "Bao",
         },
         Ruolo:"Chief Editor",
-        photo: "img/angela-caroll-chief-editor.jpg"
+        photo: "img/new-team-member-04.jpg"
+    },
+    {
+        completeName :{
+            name: "Federico",
+            surname: "Riccio",
+        },
+        Ruolo:"Office Manager",
+        photo: "img/angela-lopez-social-media-manager.jpg"
+    },
+    {
+        completeName :{
+            name: "Fabio",
+            surname: "Rengar",
+        },
+        Ruolo:"Social Media Menager",
+        photo: "img/new-team-member-03.jpg"
+    },
+    {
+        completeName :{
+            name: "Leo",
+            surname: "il Casanova",
+        },
+        Ruolo:"Developer",
+        photo: "img/new-team-member-01.jpg"
     },
     {
         completeName :{
             name: "Baolo",
             surname: "Rao",
         },
-        Ruolo:"Office Manager",
-        photo: "img/angela-caroll-chief-editor.jpg"
+        Ruolo:"Graphic Designer",
+        photo: "img/new-team-member-02.jpg"
     },
     
 ]
-// creo il ciclo per poter ciclare all interno della lunghezza  dell ARRAY ourTEam stampare in console gli elementi che mi servono(salvandoli in variabili)
-// for(let i=0; i < ourTeam.length; i++){
 
-
-
-
-
-//     console.log(nomeCompleto, membro.Ruolo);
-// }
-
-
-
-
-
-// console.log(ourTeam[0].completeName);
-// console.log(nomeMembro + " " + cognomeMembro );
-
-
-
+const ilMioTeam = generateCard(ourTeam)
